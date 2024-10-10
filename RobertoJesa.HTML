@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>EstudiantesLP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://estudiantesdelaplata.com/wp-content/themes/edelp_v2/imgs/favicon.png">
+    
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <img id="escudo" src="https://media.tenor.com/images/739b7f3fca45f7706986bb4e4999b588/tenor.gif">
+            <h1>ESTUDIANTES <br>
+                DE LA PLATA</h1>
+        </div>
+        <div class="menu">
+            <div class="elemento">
+                <a href="http://estudiantesdelaplata.com/historia" target="_blank">HISTORIA </a>
+            </div>
+            <div class="elemento">
+                <a href="https://estudiantesdelaplata.com/futbol/logros/" target="_blank">LOGROS</a>
+            </div>
+            <div class="elemento">
+                <a href="http://estudiantesdelaplata.com/futbol/futbol-profesional/plantel-futbol-profesional/" target="_blank">PLANTEL</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="estadio">
+        <img src="https://estudiantesdelaplata.com/wp-content/uploads/2019/12/20191130_190042-scaled.jpg" alt="estadio_UNO">
+    </div>
+    <div class="main">
+            <div class="aside">
+                <div>
+                    <H2>ENCUESTA</H2>
+                    <P>Quien fue la figura del Pincha Campeón 2024</P>
+                    <div class="encuesta">
+                    <div>
+                        <input type="radio" id="mansilla" name="figura" value="MANSILLA">
+                        <label for="mansilla"><b>MANSILLA</b></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="carrillo" name="figura" value="CARRILLO">
+                        <label for="carrillo"><B>CARRILLO</B></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ascacibar" name="figura" value="ASCACIBAR">
+                        <label for="ascacibar"><B>ASCACIBAR</B></label><br>
+                    </div>
+                    <div>
+                        <input type="radio" id="otro" name="figura" value="OTRO JUGADOR">
+                        <label for="otro"><B>OTRO JUGADOR</B></label><br>
+                    </div>
+                    <div class="BotEncuesta">
+                        <button onclick="encEnv()" id="submit">ENVIAR</button>
+                        <p id="Rdo"></p>
+                        <button onclick="verRdos()" id="Rdos">Ver Resultados</button>
+                        <p id="RdosEnc"></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="article">
+            <br>
+            <h3>Llegó la 13ma Estrella!!!</h3>
+            <br>
+                <div class="contenedor">
+                    <p><b>¡¡Estudiantes es otra vez campeón!!</b> En Santiago del Estero la historia albirroja escribió una nueva página de gloria para seguir cosechando títulos y alegrías.
+                    En una final disputadísima, con muchas emociones y un enorme acompañamiento de la Familia, Estudiantes empató 1-1 con Vélez y lo derrotó 4-3 en los penales, con una nueva noche brillante de Matías Mansilla en la definición desde los 12 pasos.
+                    <br>
+                    Estudiantes 1 (4) - Vélez 1 (3)
+                    <button class="butLeer" id="leerMas">Leer Más...</button> 
+                </p>
+                <span class="ocultar" id="span_text">
+                    <p>Comenzó mejor el equipo de Liniers, quien tuvo 2 llegadas claras a los 5 minutos.
+                    Pero tras un córner, Sosa jugó corto para Cetré, este liberó a Mancuso que de frente al arco y desde afuera del área, la mandó al fondo de la red para abrir el marcador.
+                    Vélez siguió dominando, movió el banco en el 2do tiempo, y el ingresado Sarco hizo la personal por el sector derecho, remató y puso el 1-1. Al empate se le sumó a Estudiantes la expulsión de Benedetti.
+                    <br>En el tiempo extra Estudiantes mejoró su actitud, pero el marcador no se alteró y la definición pasó a los penales.
+                    <br>Mientras Piatti, Correa, Cetré convirtieron sus disparos, Mansilla otra vez se adueñó de la serie al atajarle los envíos a García, Caseres y Montoro, mientras que en los pies de Zuqui estuvo el gol que desató la euforia y el festejo.
+                    <button class="butLeer" id="leerMenos">Leer Menos</button> 
+                </p>
+                </span>
+                </div>
+            </div>
+    </div>
+    <div class="section">
+        <form action="">
+            <div>
+                <h3>ASOCIATE</h3>
+                <h4>Carga tus datos y nos comunicaremos para poder ayudarte</h4></div>
+        <div class="row">
+        <div class="column">
+            <div class="input">
+                <label for="name">Nombres</label>
+                <input type="text" placeholder="Ingrese su/s nombre/s">
+            </div>
+            <div class="input">
+                <label for="">Apellido</label>
+                <input type=""placeholder="Ingrese su/s Apellido/s">
+            </div>
+            <div class="input">
+                <label for="number">DNI</label>
+                <input type="number">
+    
+            </div>
+            <div class="input">
+                <label for="">Correo Electrónico</label>
+                <input type="email">
+            </div>
+        </div>
+                
+        <div class="column">
+            <div id="date">
+                <label for="">Fecha Nacimiento</label>
+                <input type="date">
+            </div>
+    
+            <div class="input-ground">
+                    <fieldset>
+                        <legend>Provincia</legend>
+                        <label for="">
+                        <input type="radio" name="Pcia" value"Buenos Aires">Buenos Aires
+                        </label>
+                        <label for="">
+                        <input type="radio" name="Pcia" value"Caba">Caba
+                        </label>
+                        <label for="">
+                        <input type="radio" name="Pcia" value"Otras">Resto del Pais
+                        </label>
+                    </fieldset>
+                    <div class="input">
+                        <label for="msg">Comentarios</label>
+                        <textarea id="msg" cols="45" rows="6"></textarea>
+                    </div>
+                </div>
+            </div> 
+        </div>         
+            
+        <div class="row">
+            <button id="submit">ENVIAR</button>
+        </div>
+    </form>
+        </div>
+    <div class="footer">
+            <div class="redes">
+                <img src="https://images.vexels.com/media/users/3/223136/isolated/preview/984f500cf9de4519b02b354346eb72e0-facebook-icon-redes-sociales-by-vexels.png" alt="">
+                <a href="https://www.facebook.com/EdelpOficial" target="_blank" rel="noopener noreferrer">Facebook</a>    
+            </div>
+            <div class="redes">
+                <img src="https://th.bing.com/th/id/OIP.JtmXSh_uyZBaTg1eXd-NtgAAAA?rs=1&pid=ImgDetMain" alt="">
+                <a href="https://www.instagram.com/edelpoficial" target="_blank" rel="noopener noreferrer">Instagram</a>    
+            </div>
+            <div class="redes">
+                <img src="https://th.bing.com/th/id/OIP.Mv1Fau-VnohAh-AU3K6rmwHaHa?rs=1&pid=ImgDetMain" alt="">
+                <a href="https://x.com/EdelpOficial?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1778415676798951520%7Ctwgr%5E161ecc5f2ff59176dc0d89c5f2e55ec888955496%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Festudiantesdelaplata.com%2Flos-pumas-en-uno%2F" target="_blank" rel="noopener noreferrer">X</a>    
+            </div>
+            <div class="redes">
+                <img src="https://i.pinimg.com/originals/02/be/ef/02beefb6178a07768e1eae7a18406e40.jpg" alt="">
+                <a href="https://www.tiktok.com/@edelpoficial?lang=es" target="_blank" rel="noopener noreferrer">TikTok</a>    
+            </div>
+            </fieldset>      
+        
+        </div>
+    </div>
+    <script src="Rober.js"></script>
+</body>
+</html>

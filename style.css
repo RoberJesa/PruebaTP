@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0px;
+    
+    }
+
+.body{
+    margin: 0px;
+    padding: 0px;
+    }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: gray;
+}
+
+.logo{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+}
+
+.h1{
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    }
+
+#escudo{
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+    }
+
+.menu{
+    display: flex;
+}
+
+.elemento{
+    width: 100px;
+    height: 40px;
+    background-color: goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: darkgoldenrod;
+    }
+
+.estadio{
+    background-color: black;
+    text-align: center;
+   }
+.estadio > img{
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+
+}
+
+.aside{
+    width: 30%;
+    height: 500px;
+    background-color: grey;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding-left: 15px;
+    }
+
+.encuesta{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 5px;
+    }
+
+.row{
+    display: flex;
+    justify-content: center;
+    }
+
+.BotEncuesta{
+    display: flex;
+    flex-direction: column;
+}
+
+#Rdo{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#RdoEnc{
+    margin-left: 60px;
+    font-size: 18px;
+    background-color: white;
+}
+
+#submit{
+    padding: 1em 6em;
+    background-color: darkgoldenrod;
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 5px;
+}
+
+#Rdos{
+    padding: 1em 6em;
+    background-color: darkgoldenrod;
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 5px;  
+}
+
+.article{
+    width: 70%;
+    height: 500px;
+    background-color: rgb(240, 43, 43);
+    border: 2px solid black; 
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: auto;
+}
+
+.article > h3{
+    text-align: center;
+}
+
+.butLeer{
+    cursor: pointer;
+    text-decoration: underline;
+    background: none;
+    font-weight: bolder;
+}
+
+.ocultar{
+    display: none;
+
+}
+
+.mostrar{
+    display: block;
+    overflow: auto;
+}
+
+.section{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(240, 43, 43);
+    border: 2px solid black;
+}
+
+form{
+    font-size: 120%;
+    margin: 7px;
+}
+ 
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.colum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    padding: 5em;
+    }
+
+.input{
+        margin: 10px;
+    }    
+    
+.input > label{
+        display: block;
+    }
+    
+.input > select, input > input{
+        width: 100%;
+        height: 25px;
+    }
+    
+.input > select, .input > input{
+        width: 100%;
+        height: 35px;
+        font-size: 1em;
+    }
+
+#fecha{
+        width: 100%;
+        height: 45px;
+        font-size: 1em;    
+    }
+    
+#date{
+        width: 100%;
+        height: 35px;
+        font-size: 1em;   
+    }
+    
+fieldset{
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        }
+    
+fieldset > label{
+        margin: 4px;
+    }
+    
+textarea{
+        width: 100%;
+        resize: none;
+        height: 115px;
+    }
+    
+form button{
+        padding: 1.5em 6em;
+        background-color: darkgoldenrod;
+        box-shadow: 2px 2px 2px black;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        margin: 10px;
+    }
+
+.footer{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+    }
+
+ .red{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        width: 900px;
+        padding: 20px;
+    }
+
+.redes > img {
+    width: 20px;
+    height: 20x;
+}
+
+a{
+    margin: 10px;
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+}
